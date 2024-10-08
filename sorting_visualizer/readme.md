@@ -1,0 +1,5 @@
+-> Sorting Visualizer: Developed with a friend to demonstrate sorting algorithms. 
+-> Tech Stack: Used only HTML, CSS, and JavaScript. 
+-> Educational Tool: Aided many friends in understanding sorting algorithms. 
+-> Visualization: Enabled users to see how different sorting algorithms work. 
+-> Deep Thinking: Required extensive problem-solving and deep thinking due to the lack of frameworks.

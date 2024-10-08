@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="jsfile.js" defer></script>
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="heading">
+            Sorting visualizer
+        </h1>
+
+        <div class="input-section">
+            
+            <form class="input-form">
+                <input
+                    type="text"
+                    id="array"
+                    placeholder="Enter comma separated array (e.g., 1,2,3,...)"
+                    required
+                />
+
+                <label for="algorithm">Choose an algorithm:</label>
+                <select id="algorithm" name="algorithm">
+
+                    <option value="select">select</option>
+                    <option value="BubbleSort">BubbleSort</option>
+                    <option value="SelectionSort">SelectionSort</option>
+                    <option value="Comming Soon" disabled>Comming Soon</option>
+                    <option value="Comming Soon" disabled>Comming Soon</option>
+
+                </select>
+
+                <span class="btns">
+
+                    <button type="button" id="submit-array">Submit Array</button>
+                    
+                    <button type="button" id="visualize-btn" disabled>
+                        Visualize Sorting
+                    </button>
+
+                    <button type="button" id="pause-btn" class="pause">
+                        Pause
+                    </button>
+
+                    <button type="button" id="slow-btn" class="slow">
+                        Slow 
+                    </button>
+
+                    <button type="button" id="fast-btn" class="fast">
+                        Fast
+                    </button>
+
+                </span>
+                
+            </form>
+
+        </div>
+
+        <div class="visualization-div"></div>
+
+        </div>
+
+<!-- 
+        <div class="final-text">
+
+        </div> -->
+
+
+        <div class="real-time-description-section">
+            <h3 style="text-align: center;">
+                Description Box
+            </h3>
+
+
+        </div>
+
+
+
+</body>
+
+</html>

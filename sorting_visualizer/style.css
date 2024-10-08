@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: rgba(231, 229, 225, 0.781); */
+  background-color: rgba(213, 242, 242, 0.721);
+  letter-spacing: 0.2em;
+
+  margin-bottom: 3rem;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-section {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+#array {
+    width: 40%;
+    height: 30px;
+    border: 2px solid black;  
+    /* border-top: none;
+    border-left: none;
+    border-right: none; */
+    margin-right: 2%;
+    text-align: center;
+    font-size: 1.5rem;
+    
+
+}
+
+.input-form span{
+    width: 30%;
+    text-align: right;
+    
+    
+}
+
+.input-form button {
+  width: 8%;
+  height: 30px;
+  margin-top: 10px;
+
+  background-color: rgba(239, 78, 78, 0.887);
+  color: white;
+  border-radius: 10px;
+
+}
+
+.input-form button:hover{
+    
+    background-color: rgba(251, 113, 113, 0.887);
+    color: black;
+}
+
+.visualization-div {
+  position: relative;
+}
+
+.visualization-div div {
+  transition: all 1s ease-in-out;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 10px;
+  position: absolute;
+}
+
+/* Remove specificity from .array-element.swapping */
+.highlight-bar {
+  background-color: #4caf50; /* Green color */
+}
+
+.sorted-highlight {
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+.heading{
+    font-size: 3.2rem;
+    text-align: center;
+
+}
+
+.input-form label{
+
+    font-size: 1.8rem;
+    font-weight: 400;
+
+}
+
+#algorithm{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/* =============================== description box styling ========================= */
+
+.real-time-description-section{
+    position: absolute;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    width: 20%;
+    height: 50%;
+    padding: 1.5rem;
+    top: 30%;
+    left: 75%;
+    border-radius: 4%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.real-time-description-section p{
+    
+    font-size: 1.8rem;
+    
+
+}
+
+
+
+
+
+
+
+
+.array-element{
+
+  /* background-color: rgb(229, 202, 168); */
+
+  border-radius: 0.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px) and (max-width: 1400px)
+{
+
+
+    html{
+      font-size: 8px;
+    }
+
+    .input-form{
+      text-align: center;
+    }
+
+    .input-form span{
+      display: flex;
+      justify-content: space-evenly;
+      height: 8rem;
+      /* border: 2px solid black; */
+      width: 50vw;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 1rem;
+    }
+    .input-form button{
+      width: 100%;
+      margin-right: 1rem;
+      /* padding: 2rem; */
+    }
+
+
+    .real-time-description-section h3{
+      font-size: 1.5rem;
+    }
+
+  
+}
+
+
+
+
+@media (min-width: 598px) and (max-width: 800px)
+{
+
+
+    html{
+      font-size: 8px;
+    }
+
+    .pause
+    {
+      display: none;
+    }
+
+    .input-form{
+      text-align: center;
+    }
+
+    .input-form span{
+      display: flex;
+      justify-content: space-evenly;
+      height: 8rem;
+      /* border: 2px solid black; */
+      width: 50vw;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 1rem;
+    }
+    .input-form button{
+      width: 100%;
+      margin-right: 1rem;
+      /* padding: 2rem; */
+    }
+
+
+    .real-time-description-section h3{
+      font-size: 1.5rem;
+    }
+    .real-time-description-section{
+
+      top: 120vh;
+      left: 25%;
+      width: 50%;
+      text-align: center;
+      margin-bottom: 2rem;
+
+    }
+
+  
+}
+
+
+
+
+
+@media (max-width: 598px) and (min-width: 312px)
+{
+
+
+    html{
+      font-size: 8px;
+    }
+
+    .pause
+    {
+      display: none;
+    }
+    .input-form{
+      text-align: center;
+    }
+
+    .input-form span{
+      display: flex;
+      justify-content: space-evenly;
+      height: 8rem;
+      /* border: 2px solid black; */
+      width: 50vw;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 1rem;
+    }
+    .input-form button{
+      width: 100%;
+      margin-right: 1rem;
+      font-size: 1.2rem;
+      /* padding: 2rem; */
+    }
+
+
+    .real-time-description-section h3{
+      font-size: 1.5rem;
+    }
+    .real-time-description-section{
+
+      top: 120vh;
+      left: 25%;
+      width: 50%;
+      text-align: center;
+      margin-bottom: 2rem;
+
+    }
+
+    #array{
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+  
+}
+
+
+
+@media (max-width: 311px) {
+
+
+
+  
+  html{
+    font-size: 8px;
+  }
+
+
+  .pause
+    {
+      display: none;
+    }
+  .input-form{
+    text-align: center;
+  }
+
+  .input-form span{
+    display: flex;
+    justify-content: space-evenly;
+    height: 8rem;
+    /* border: 2px solid black; */
+    width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  .input-form button{
+    width: 120%;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    /* padding: 2rem; */
+  }
+
+
+  .real-time-description-section h3{
+    font-size: 1.5rem;
+  }
+  .real-time-description-section{
+
+    top: 120vh;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 2rem;
+
+  }
+
+
+
+  #array{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  
+}
+
